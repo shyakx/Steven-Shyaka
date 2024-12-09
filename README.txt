@@ -1,30 +1,58 @@
-Editorial by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+ Steven-Shyaka
 
+Welcome to my portfolio! This repository showcases my skills, projects, and the tools I use as a developer.
 
-Say hello to Editorial, a blog/magazine-ish template built around a toggleable "locking"
-sidebar (scroll down to see what I mean) and an accordion-style menu. Not the usual landing
-page/portfolio affair you'd expect to see at HTML5 UP, but I figured for my 41st (!!!)
-template I'd change it up a little. Enjoy :)
+ 🛠 Skills
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+Programming Languages:
+- JavaScript
+- Python
+- Dart
+- Java
 
-(* = not included)
+Tools & Frameworks:
+- React
+- Flutter
+- Node.js
+- TensorFlow
 
-AJ
-aj@lkn.io | @ajlkn
+Other Skills:
+- UI/UX Design
+- Machine Learning
+- Database Management
+- Project Management
 
+📂 Projects
 
-Credits:
+1. FarmEd (Mobile App)
+- Description: A Flutter-based mobile app that provides Rwandan farmers with educational resources on modern farming techniques.
+- Features: Authentication, blog posts, real-time agricultural updates, instructional videos.
+- Tech Stack: Flutter, Firebase.
 
-	Demo Images:
-		Unsplash (unsplash.com)
+2. Mental Health Support Platform (Web App)
+- Description: A React and Node.js web app offering mental health support resources.
+- Features: Community forums, mental health tips, AI-based chat support.
+- Tech Stack: React, Node.js, MongoDB.
 
-	Icons:
-		Font Awesome (fontawesome.io)
+3. E-Commerce Website
+- Description: An online shopping platform built with JavaScript and Python.
+- Features: Real-time product recommendations, secure payments.
+- Tech Stack: JavaScript, Python, TensorFlow.
 
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+🎯 Goals
+
+- Learn advanced mobile development techniques using Flutter.
+- Dive deeper into machine learning and data visualization.
+- Work on innovative solutions combining technology and agriculture.
+
+📬 Contact
+
+Feel free to reach out if you're interested in collaborating or have any questions!
+
+- Email: steven.shyaka@example.com(mailto:shyakasteven2023@gmail.com)
+- LinkedIn: linkedin.com/in/steven-shyaka(https://www.linkedin.com/in/steven-shyaka)
+- GitHub: github.com/stevenshyaka(https://github.com/stevenshyaka)
+
+---
+
+Thank you for visiting my portfolio repository! 🌟

@@ -49,9 +49,9 @@ Other Skills:
 
 Feel free to reach out if you're interested in collaborating or have any questions!
 
-- Email: steven.shyaka@example.com(mailto:shyakasteven2023@gmail.com)
-- LinkedIn: linkedin.com/in/steven-shyaka(https://www.linkedin.com/in/steven-shyaka)
-- GitHub: github.com/stevenshyaka(https://github.com/shyakx/Steven-Shyaka)
+- Email: shyakasteven2023@gmail.com
+- LinkedIn: https://www.linkedin.com/in/steven-shyaka
+- GitHub: https://github.com/shyakx/Steven-Shyaka
 
 ---
 

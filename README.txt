@@ -51,7 +51,7 @@ Feel free to reach out if you're interested in collaborating or have any questio
 
 - Email: steven.shyaka@example.com(mailto:shyakasteven2023@gmail.com)
 - LinkedIn: linkedin.com/in/steven-shyaka(https://www.linkedin.com/in/steven-shyaka)
-- GitHub: github.com/stevenshyaka(https://github.com/stevenshyaka)
+- GitHub: github.com/stevenshyaka(https://github.com/shyakx/Steven-Shyaka)
 
 ---
 

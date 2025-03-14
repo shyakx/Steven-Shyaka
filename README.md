@@ -34,11 +34,11 @@ A **developer portfolio website** to showcase my projects and experience.
 ## 📜 How to Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/shyakx/your-portfolio.git
+   git clone https://github.com/shyakx/Steven-Shyaka.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd your-portfolio
+   cd Steven-Shyaka
    ```
 3. Open the `index.html` file in a browser (for web projects) or run the app using Flutter (for mobile projects).
 

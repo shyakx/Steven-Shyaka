@@ -33,14 +33,14 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <section id="contact" className="py-20 bg-slate-900">
+    <section id="contact" className="py-20 bg-blue-900">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
             Let's Work Together
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-blue-400 to-cyan-400 mx-auto mb-8"></div>
-          <p className="text-xl text-slate-300 max-w-3xl mx-auto">
+          <div className="w-24 h-1 bg-gradient-to-r from-blue-400 to-blue-300 mx-auto mb-8"></div>
+          <p className="text-xl text-blue-100 max-w-3xl mx-auto">
             Ready to bring your ideas to life? I'm always open to discussing new opportunities and interesting projects.
           </p>
         </div>
@@ -51,37 +51,37 @@ const Contact: React.FC = () => {
             <h3 className="text-2xl font-bold text-white mb-6">Get In Touch</h3>
             
             <div className="space-y-6">
-              <div className="flex items-center gap-4 text-slate-300 hover:text-white transition-colors">
+              <div className="flex items-center gap-4 text-blue-100 hover:text-white transition-colors">
                 <div className="p-3 bg-blue-600 rounded-lg">
                   <Mail className="w-5 h-5" />
                 </div>
                 <div>
                   <p className="font-medium">Email</p>
-                  <a href="mailto:shyakasteven2023@gmail.com" className="text-blue-400 hover:underline">
+                  <a href="mailto:shyakasteven2023@gmail.com" className="text-blue-300 hover:underline">
                     shyakasteven2023@gmail.com
                   </a>
                 </div>
               </div>
 
-              <div className="flex items-center gap-4 text-slate-300 hover:text-white transition-colors">
-                <div className="p-3 bg-green-600 rounded-lg">
+              <div className="flex items-center gap-4 text-blue-100 hover:text-white transition-colors">
+                <div className="p-3 bg-blue-600 rounded-lg">
                   <Phone className="w-5 h-5" />
                 </div>
                 <div>
                   <p className="font-medium">Phone</p>
-                  <a href="tel:+250782194138" className="text-green-400 hover:underline">
+                  <a href="tel:+250782194138" className="text-blue-300 hover:underline">
                     +250 782 194 138
                   </a>
                 </div>
               </div>
 
-              <div className="flex items-center gap-4 text-slate-300 hover:text-white transition-colors">
-                <div className="p-3 bg-purple-600 rounded-lg">
+              <div className="flex items-center gap-4 text-blue-100 hover:text-white transition-colors">
+                <div className="p-3 bg-blue-600 rounded-lg">
                   <MapPin className="w-5 h-5" />
                 </div>
                 <div>
                   <p className="font-medium">Location</p>
-                  <p className="text-slate-400">Kigali, Rwanda</p>
+                  <p className="text-blue-200">Kigali, Rwanda</p>
                 </div>
               </div>
             </div>
@@ -91,9 +91,9 @@ const Contact: React.FC = () => {
               <h4 className="text-lg font-semibold text-white mb-4">Connect With Me</h4>
               <div className="flex gap-4">
                 {[
-                  { icon: <Github className="w-5 h-5" />, href: "https://github.com", bg: "bg-slate-700 hover:bg-slate-600" },
-                  { icon: <Linkedin className="w-5 h-5" />, href: "https://linkedin.com", bg: "bg-blue-600 hover:bg-blue-500" },
-                  { icon: <Twitter className="w-5 h-5" />, href: "https://twitter.com", bg: "bg-sky-500 hover:bg-sky-400" }
+                  { icon: <Github className="w-5 h-5" />, href: "https://github.com", bg: "bg-blue-800 hover:bg-blue-700" },
+                  { icon: <Linkedin className="w-5 h-5" />, href: "https://linkedin.com", bg: "bg-blue-800 hover:bg-blue-700" },
+                  { icon: <Twitter className="w-5 h-5" />, href: "https://twitter.com", bg: "bg-blue-800 hover:bg-blue-700" }
                 ].map((social, index) => (
                   <a
                     key={index}
@@ -108,72 +108,72 @@ const Contact: React.FC = () => {
           </div>
 
           {/* Contact Form */}
-          <div className="bg-slate-800 rounded-2xl p-8">
-            <h3 className="text-2xl font-bold text-white mb-6">Send Message</h3>
+          <div className="bg-white rounded-2xl p-8">
+            <h3 className="text-2xl font-bold text-gray-800 mb-6">Send Message</h3>
             
             <form ref={form} onSubmit={sendEmail} className="space-y-6">
               <div className="grid md:grid-cols-2 gap-4">
                 <div>
-                  <label className="block text-sm font-medium text-slate-300 mb-2">
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
                     First Name
                   </label>
                   <input
                     type="text"
                     name="firstName"
                     required
-                    className="w-full px-4 py-3 bg-slate-700 border border-slate-600 rounded-lg text-white placeholder-slate-400 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500"
+                    className="w-full px-4 py-3 bg-white border border-blue-300 rounded-lg text-gray-800 placeholder-gray-500 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500"
                     placeholder="Jean Paul"
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-slate-300 mb-2">
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
                     Last Name
                   </label>
                   <input
                     type="text"
                     name="lastName"
                     required
-                    className="w-full px-4 py-3 bg-slate-700 border border-slate-600 rounded-lg text-white placeholder-slate-400 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500"
+                    className="w-full px-4 py-3 bg-white border border-blue-300 rounded-lg text-gray-800 placeholder-gray-500 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500"
                     placeholder="Mugabo"
                   />
                 </div>
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-slate-300 mb-2">
+                <label className="block text-sm font-medium text-gray-700 mb-2">
                   Email
                 </label>
                 <input
                   type="email"
                   name="email"
                   required
-                  className="w-full px-4 py-3 bg-slate-700 border border-slate-600 rounded-lg text-white placeholder-slate-400 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500"
+                  className="w-full px-4 py-3 bg-white border border-green-300 rounded-lg text-gray-800 placeholder-gray-500 focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500"
                   placeholder="jeanpaul.mugabo@example.com"
                 />
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-slate-300 mb-2">
+                <label className="block text-sm font-medium text-gray-700 mb-2">
                   Subject
                 </label>
                 <input
                   type="text"
                   name="subject"
                   required
-                  className="w-full px-4 py-3 bg-slate-700 border border-slate-600 rounded-lg text-white placeholder-slate-400 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500"
+                  className="w-full px-4 py-3 bg-white border border-green-300 rounded-lg text-gray-800 placeholder-gray-500 focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500"
                   placeholder="Project Discussion"
                 />
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-slate-300 mb-2">
+                <label className="block text-sm font-medium text-gray-700 mb-2">
                   Message
                 </label>
                 <textarea
                   name="message"
                   rows={5}
                   required
-                  className="w-full px-4 py-3 bg-slate-700 border border-slate-600 rounded-lg text-white placeholder-slate-400 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 resize-none"
+                  className="w-full px-4 py-3 bg-white border border-green-300 rounded-lg text-gray-800 placeholder-gray-500 focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500 resize-none"
                   placeholder="Tell me about your project..."
                 ></textarea>
               </div>
@@ -196,7 +196,7 @@ const Contact: React.FC = () => {
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full bg-gradient-to-r from-blue-600 to-cyan-600 text-white py-3 px-6 rounded-lg font-semibold hover:shadow-lg transform hover:-translate-y-1 transition-all duration-200 flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
+                className="w-full bg-gradient-to-r from-blue-600 to-blue-500 text-white py-3 px-6 rounded-lg font-semibold hover:shadow-lg transform hover:-translate-y-1 transition-all duration-200 flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
               >
                 {isSubmitting ? (
                   <>

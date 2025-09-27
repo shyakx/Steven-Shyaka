@@ -80,14 +80,14 @@ const Projects: React.FC = () => {
   ];
 
   return (
-    <section id="projects" className="py-20 bg-gray-900">
+    <section id="projects" className="py-20 bg-blue-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
             Selected Projects
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-cyan-600 mx-auto mb-8"></div>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+          <div className="w-24 h-1 bg-gradient-to-r from-blue-400 to-blue-300 mx-auto mb-8"></div>
+          <p className="text-xl text-blue-100 max-w-3xl mx-auto">
             A showcase of my work across web development, mobile applications, and enterprise solutions
           </p>
         </div>
@@ -96,25 +96,25 @@ const Projects: React.FC = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="group bg-gray-800 rounded-2xl shadow-lg hover:shadow-2xl hover:shadow-blue-500/25 transition-all duration-300 transform hover:-translate-y-2 overflow-hidden border border-gray-700"
+              className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl hover:shadow-blue-500/25 transition-all duration-300 transform hover:-translate-y-2 overflow-hidden border border-blue-200"
             >
-              <div className={`h-2 bg-gradient-to-r ${project.color}`}></div>
+              <div className="h-2 bg-gradient-to-r from-blue-600 to-blue-500"></div>
               
               <div className="p-8">
-                <div className={`inline-flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-r ${project.color} text-white mb-6`}>
+                <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-r from-blue-600 to-blue-500 text-white mb-6">
                   {project.icon}
                 </div>
 
                 <div className="mb-4">
-                  <span className="text-sm font-medium text-gray-400 uppercase tracking-wide">
+                  <span className="text-sm font-medium text-blue-600 uppercase tracking-wide">
                     {project.category}
                   </span>
-                  <h3 className="text-xl font-bold text-white mt-2 group-hover:text-blue-400 transition-colors">
+                  <h3 className="text-xl font-bold text-gray-800 mt-2 group-hover:text-blue-600 transition-colors">
                     {project.title}
                   </h3>
                 </div>
 
-                <p className="text-gray-300 leading-relaxed mb-6">
+                <p className="text-gray-600 leading-relaxed mb-6">
                   {project.description}
                 </p>
 
@@ -122,7 +122,7 @@ const Projects: React.FC = () => {
                   {project.tech.map((tech, i) => (
                     <span
                       key={i}
-                      className="px-3 py-1 bg-gray-700 text-gray-300 rounded-full text-sm font-medium border border-gray-600"
+                      className="px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-sm font-medium border border-blue-200"
                     >
                       {tech}
                     </span>
@@ -135,18 +135,18 @@ const Projects: React.FC = () => {
                       href={project.liveUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center gap-2 text-blue-400 hover:text-blue-300 font-medium transition-colors"
+                      className="flex items-center gap-2 text-blue-600 hover:text-blue-500 font-medium transition-colors"
                     >
                       <ExternalLink size={16} />
                       View Live Site
                     </a>
                   ) : (
-                    <button className="flex items-center gap-2 text-gray-400 hover:text-gray-300 font-medium transition-colors cursor-not-allowed opacity-50">
+                    <button className="flex items-center gap-2 text-gray-400 hover:text-gray-500 font-medium transition-colors cursor-not-allowed opacity-50">
                       <ExternalLink size={16} />
                       View Project
                     </button>
                   )}
-                  <button className="flex items-center gap-2 text-gray-400 hover:text-gray-300 font-medium transition-colors">
+                  <button className="flex items-center gap-2 text-gray-400 hover:text-gray-500 font-medium transition-colors">
                     <Github size={16} />
                     Code
                   </button>

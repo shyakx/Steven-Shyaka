@@ -23,12 +23,12 @@ const Header: React.FC = () => {
 
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-      isScrolled ? 'bg-black/95 backdrop-blur-md shadow-lg border-b border-gray-800' : 'bg-black/20 backdrop-blur-sm'
+      isScrolled ? 'bg-blue-900/95 backdrop-blur-md shadow-lg border-b border-blue-600' : 'bg-blue-900/80 backdrop-blur-sm'
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="text-2xl font-bold text-white">
-            Steven Shyaka
+            Steven <span className="text-blue-300">Shyaka</span>
           </div>
 
           {/* Desktop Navigation */}
@@ -37,29 +37,30 @@ const Header: React.FC = () => {
               <button
                 key={item}
                 onClick={() => scrollToSection(item.toLowerCase())}
-                className="text-gray-300 hover:text-blue-400 transition-colors duration-200 font-medium"
+                className="text-blue-200 hover:text-blue-300 transition-colors duration-200 font-medium relative group"
               >
                 {item}
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-400 transition-all duration-200 group-hover:w-full"></span>
               </button>
             ))}
           </nav>
 
           {/* Social Links */}
           <div className="hidden md:flex space-x-4">
-            <a href="https://github.com" className="text-gray-300 hover:text-blue-400 transition-colors">
+            <a href="https://github.com" className="p-2 text-blue-200 hover:text-white hover:bg-blue-800 rounded-lg transition-all duration-200">
               <Github size={20} />
             </a>
-            <a href="https://linkedin.com" className="text-gray-300 hover:text-blue-400 transition-colors">
+            <a href="https://linkedin.com" className="p-2 text-blue-200 hover:text-white hover:bg-blue-800 rounded-lg transition-all duration-200">
               <Linkedin size={20} />
             </a>
-            <a href="mailto:shyakasteven2023@gmail.com" className="text-gray-300 hover:text-blue-400 transition-colors">
+            <a href="mailto:shyakasteven2023@gmail.com" className="p-2 text-blue-200 hover:text-white hover:bg-blue-800 rounded-lg transition-all duration-200">
               <Mail size={20} />
             </a>
           </div>
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-gray-300"
+            className="md:hidden text-blue-200 hover:text-white transition-colors"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -68,13 +69,13 @@ const Header: React.FC = () => {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden bg-black/95 backdrop-blur-md border-t border-gray-800">
+          <div className="md:hidden bg-blue-900/95 backdrop-blur-md border-t border-blue-600">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {['About', 'Experience', 'Projects', 'Skills', 'Contact'].map((item) => (
                 <button
                   key={item}
                   onClick={() => scrollToSection(item.toLowerCase())}
-                  className="block w-full text-left px-3 py-2 text-gray-300 hover:text-blue-400 font-medium"
+                  className="block w-full text-left px-3 py-2 text-blue-200 hover:text-white hover:bg-blue-800 rounded-lg font-medium transition-all duration-200"
                 >
                   {item}
                 </button>
